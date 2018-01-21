@@ -8,5 +8,4 @@ jupyter
 graphviz
 mxnet==0.11.0
 graphviz
-keras-mxnet
 h5py
