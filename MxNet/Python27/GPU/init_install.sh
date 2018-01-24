@@ -17,7 +17,8 @@ DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
     nano \
     python-pip \
     python-dev \
-    libatlas-base-dev
+    libatlas-base-dev \
+    unzip
 
 pip install --upgrade pip setuptools
 pip --no-cache-dir install --upgrade -r requirements.txt
